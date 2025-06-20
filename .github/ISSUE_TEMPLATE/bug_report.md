@@ -26,7 +26,7 @@ If applicable, add screenshots to help explain your problem.
 **Environment (please complete the following information):**
  - OS: [e.g. macOS, Windows, Linux]
  - Browser/Tool Used [e.g. Chrome, Cursor, VSCode]
- - APM Version [e.g. v0.1.0]
+ - LAPM Version [e.g. v0.1.0]
 
 **Additional context**
 Add any other context about the problem here. 

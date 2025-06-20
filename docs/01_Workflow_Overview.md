@@ -1,10 +1,10 @@
-# APM Workflow Overview
+# LAPM Workflow Overview
 
-This document provides a visual overview of the key processes and interactions within the Agentic Project Management (APM) framework using Mermaid diagrams. It complements the detailed textual explanations found in other documentation files.
+This document provides a visual overview of the key processes and interactions within the LexIQ Cursor Agentic Project Management (LAPM) framework using Mermaid diagrams. It complements the detailed textual explanations found in other documentation files.
 
-## Core APM Cycle
+## Core LAPM Cycle
 
-This flowchart illustrates the main life cycle of task management within an APM project, highlighting the collaboration between the User, Manager Agent, and Implementation Agents.
+This flowchart illustrates the main life cycle of task management within an LAPM project, highlighting the collaboration between the User, Manager Agent, and Implementation Agents.
 
 ```mermaid
 graph LR
@@ -111,4 +111,4 @@ graph LR
 *   The **Manager Agent** reads from the **Memory Bank** to review work, track progress, and maintain overall project context.
 *   The **Memory Bank** effectively provides context back to the **Manager Agent** for its coordination and planning functions.
 
-These diagrams provide a simplified visual guide to understanding the flow and interactions within the APM framework. For detailed explanations of each component and procedure, please refer to the other documents in this `/docs` directory and the prompt guides in the `/prompts` directory.
+These diagrams provide a simplified visual guide to understanding the flow and interactions within the LAPM framework. For detailed explanations of each component and procedure, please refer to the other documents in this `/docs` directory and the prompt guides in the `/prompts` directory.

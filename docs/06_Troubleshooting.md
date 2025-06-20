@@ -1,6 +1,6 @@
-# APM Troubleshooting Guide
+# LAPM Troubleshooting Guide
 
-This guide addresses common issues, questions, and challenges that users might encounter when using the Agentic Project Management (APM) framework. If you're facing a problem not listed here, consider opening an issue on the GitHub repository.
+This guide addresses common issues, questions, and challenges that users might encounter when using the LexIQ Cursor Agentic Project Management (LAPM) framework. If you're facing a problem not listed here, consider opening an issue on the GitHub repository.
 
 ## General Issues & Best Practices
 
@@ -26,7 +26,7 @@ This guide addresses common issues, questions, and challenges that users might e
 **3. Issue: Workflow feels inefficient or too slow.**
 
 *   **Cause A: Overly Chatty Interactions**
-    *   **Solution:** While APM structures interaction, aim for concise communication. Provide all necessary information in a single, well-structured prompt where possible, rather than many small back-and-forth messages for a single conceptual step (e.g., provide all requirements for a task in one go to the Manager).
+    *   **Solution:** While LAPM structures interaction, aim for concise communication. Provide all necessary information in a single, well-structured prompt where possible, rather than many small back-and-forth messages for a single conceptual step (e.g., provide all requirements for a task in one go to the Manager).
 *   **Cause B: Not Leveraging Manager Agent Fully for Prompt Crafting**
     *   **Solution:** The Manager Agent is there to help you draft effective prompts for Implementation Agents, including recalling context from the plan. Use its expertise (guided by `prompts/01_Manager_Agent_Core_Guides/03_Task_Assignment_Prompts_Guide.md`).
 
@@ -38,7 +38,7 @@ This guide addresses common issues, questions, and challenges that users might e
 *   **Solution:**
     *   **Best Practice:** Always instruct agents to *append* their logs. When manually adding logs, ensure you scroll to the end of the file.
     *   **Version Control:** Use Git or another version control system for your project, including `Memory_Bank.md`. Commit changes frequently. This allows you to revert to previous versions if an overwrite occurs.
-    *   **User Confirmation:** The APM workflow emphasizes User confirmation *before* an Implementation Agent logs. This step should also involve the User guiding *where* (which Memory Bank, if multiple) the log should go, ensuring it's appended.
+    *   **User Confirmation:** The LAPM workflow emphasizes User confirmation *before* an Implementation Agent logs. This step should also involve the User guiding *where* (which Memory Bank, if multiple) the log should go, ensuring it's appended.
 
 **5. Issue: The `Memory_Bank.md` file is becoming too large and difficult for an AI agent to parse/read effectively (e.g., when Manager reviews).**
 

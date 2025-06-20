@@ -1,17 +1,17 @@
-# Getting Started with APM
+# Getting Started with LAPM
 
-This guide provides a step-by-step walkthrough for setting up and running your first project using the Agentic Project Management (APM) framework. It assumes you have a basic understanding of the APM concepts from the `00_Introduction.md` and `01_Workflow_Overview.md`.
+This guide provides a step-by-step walkthrough for setting up and running your first project using the LexIQ Cursor Agentic Project Management (LAPM) framework. It assumes you have a basic understanding of the LAPM concepts from the `00_Introduction.md` and `01_Workflow_Overview.md`.
 
 ## Prerequisites
 
-*   **AI Assistant Platform:** Access to an LLM-based AI assistant where you can maintain distinct, ongoing chat sessions (e.g., Cursor IDE, Claude, ChatGPT Plus with GPTs, etc.). APM relies on managing multiple agent sessions.
+*   **AI Assistant Platform:** Access to an LLM-based AI assistant where you can maintain distinct, ongoing chat sessions (e.g., Cursor IDE, Claude, ChatGPT Plus with GPTs, etc.). LAPM relies on managing multiple agent sessions.
 *   **Project Idea:** A task or project complex enough to benefit from a structured, multi-agent approach. 
 *   **Markdown Familiarity:** Basic understanding of Markdown syntax for interacting with prompts and logs.
-*   **APM Files:** Access to the APM assets (prompts, guides, and protocol definitions), particularly the `/prompts` directory. The complete APM library is available [here](https://github.com/sdi2200262/agentic-project-management).
+*   **LAPM Files:** Access to the LAPM assets (prompts, guides, and protocol definitions), particularly the `/prompts` directory. The complete LAPM library is available [here](https://github.com/sdi2200262/agentic-project-management).
 
-## 1. Understand the APM Framework
+## 1. Understand the LAPM Framework
 
-Before diving in, familiarize yourself with the core concepts of APM:
+Before diving in, familiarize yourself with the core concepts of LAPM:
 
 *   **Roles:** Manager Agent, Implementation Agent(s), User.
 *   **Key Artifacts:** `Implementation_Plan.md`, `Memory_Bank.md` (or `Memory/` directory for the Memory Bank System), `Handover_File.md` and the Handover Prompt.
@@ -19,34 +19,34 @@ Before diving in, familiarize yourself with the core concepts of APM:
 *   **Prompt Library:** Understand that the `prompts/` directory contains the core instructions for agents.
 *   **(Optional) Cursor Rules:** The `rules/` directory (mirrored as `.cursor/rules/` in your project) contains optional rules for users of the Cursor IDE to enhance agent reliability and workflow efficiency. See the `rules/README.md` and the [Cursor Integration Guide](04_Cursor_Integration_Guide.md) for details.
 
-## 2. Setting Up Your Project: Accessing APM Assets
+## 2. Setting Up Your Project: Accessing LAPM Assets
 
-You have a few options to get the APM prompts, guides, and protocol definitions:
+You have a few options to get the LAPM prompts, guides, and protocol definitions:
 
-1.  **Use the APM Template (Recommended for Custom Projects):**
-    *   Click the "Use this template" button on the [APM GitHub Repository](https://github.com/sdi2200262/agentic-project-management).
-    *   This creates *your own repository* pre-filled with the entire APM structure.
-    *   **Ideal Setup:** Clone *your new repository* to the root of your project workspace. This ensures the Manager Agent can easily reference all APM guides if you confirm full asset availability.
-2.  **Clone the Official APM Repository (Recommended for Direct Use & Updates):**
-    *   Clone the main [APM GitHub Repository](https://github.com/sdi2200262/agentic-project-management) directly into your project workspace, ideally at the root.
+1.  **Use the LAPM Template (Recommended for Custom Projects):**
+    *   Click the "Use this template" button on the [LAPM GitHub Repository](https://github.com/sdi2200262/agentic-project-management).
+    *   This creates *your own repository* pre-filled with the entire LAPM structure.
+    *   **Ideal Setup:** Clone *your new repository* to the root of your project workspace. This ensures the Manager Agent can easily reference all LAPM guides if you confirm full asset availability.
+2.  **Clone the Official LAPM Repository (Recommended for Direct Use & Updates):**
+    *   Clone the main [LAPM GitHub Repository](https://github.com/sdi2200262/agentic-project-management) directly into your project workspace, ideally at the root.
     *   This gives you direct access to the latest version and all assets.
 3.  **Manual Copy-Pasting (Basic Usage):**
-    *   You can copy-paste the content of prompts (like `01_Initiation_Prompt.md`) directly from the official APM GitHub repository into your AI assistant as needed.
+    *   You can copy-paste the content of prompts (like `01_Initiation_Prompt.md`) directly from the official LAPM GitHub repository into your AI assistant as needed.
     *   This requires more manual effort from you to provide guide contents when the Manager Agent requests them.
 
-**Important:** For the Manager Agent to operate with full file awareness (if your AI platform supports it), the APM assets (especially the `prompts/` directory) should ideally be located at the root of your project workspace.
+**Important:** For the Manager Agent to operate with full file awareness (if your AI platform supports it), the LAPM assets (especially the `prompts/` directory) should ideally be located at the root of your project workspace.
 
-## 3. Initiating APM within your Project
+## 3. Initiating LAPM within your Project
 
-This is the first crucial step to get APM running:
+This is the first crucial step to get LAPM running:
 
 1.  **Open your AI Assistant (e.g., Cursor).** Dedicate a new, clean chat tab or session for your Manager Agent.
 2.  **Provide the Initiation Prompt:**
-    *   Navigate to `prompts/00_Initial_Manager_Setup/01_Initiation_Prompt.md` (in your chosen APM asset location).
+    *   Navigate to `prompts/00_Initial_Manager_Setup/01_Initiation_Prompt.md` (in your chosen LAPM asset location).
     *   Copy its *entire content*.
     *   Paste this into the chat with your designated Manager Agent as the very first message.
 3.  **Follow the Lead:** Your new Manager Agent (MA), guided by this prompt, will then:
-    *   Verify APM asset availability with you (you'll confirm your setup: full clone, partial, or copy-pasting).
+    *   Verify LAPM asset availability with you (you'll confirm your setup: full clone, partial, or copy-pasting).
     *   Ask for a high-level project overview.
     *   Present options for detailed project discovery (User-Directed or MA-Guided via `02_Codebase_Guidance.md`).
     *   Engage in the chosen discovery process.
@@ -107,14 +107,14 @@ If an agent (especially the Manager) nears its context limit, or you need to swa
 3.  **Prepare Artifacts:** The Manager will guide you (or directly generate, if capable) the content for `Handover_File.md` (context dump) and `Handover_Prompt.md` (initialization prompt), using the formats defined in `prompts/02_Utility_Prompts_And_Format_Definitions/Handover_Artifact_Formats.md`.
 4.  **Review Artifacts:** Carefully review the generated content for accuracy and completeness.
 5.  **Initiate New Agent:**
-    *   Start a **new, separate chat session** for the replacement agent (e.g., "APM Manager v2").
+    *   Start a **new, separate chat session** for the replacement agent (e.g., "LAPM Manager v2").
     *   Paste the prepared `Handover_Prompt.md` content as the **first message**.
     *   Ensure the `Handover_File.md` content is accessible (e.g., paste it after the prompt, or ensure the new agent can read the file if your platform allows).
 6.  **Verify & Continue:** The new agent will process the handover information and should prompt you to confirm its understanding. Verify its summary, then instruct it to resume the project tasks (e.g., "Okay, please proceed with reviewing the status of Agent A's last task."). The workflow continues from where the previous agent left off.
 
 ## Conclusion
 
-This guide covers the fundamental steps to get started with APM. Remember to:
+This guide covers the fundamental steps to get started with LAPM. Remember to:
 
 *   Use separate chat sessions for each agent instance.
 *   Be the communication bridge between agents.

@@ -1,6 +1,6 @@
-# APM Glossary of Core Concepts & Terms
+# LAPM Glossary of Core Concepts & Terms
 
-This document provides concise definitions for the key terms used within the Agentic Project Management (APM) framework. Use this as a quick reference and navigate to the linked documents for more detailed explanations, guides, or format specifications.
+This document provides concise definitions for the key terms used within the LexIQ Cursor Agentic Project Management (LAPM) framework. Use this as a quick reference and navigate to the linked documents for more detailed explanations, guides, or format specifications.
 
 ---
 
@@ -12,15 +12,15 @@ The defined procedure for transferring project context and responsibilities betw
 *   *See practical steps:* `docs/02_Getting_Started.md` (Step 6)
 *   *See visual overview:* `docs/01_Workflow_Overview.md` (Handover Protocol Flow)
 
-**APM (Agentic Project Management)**
+**LAPM (LexIQ Cursor Agentic Project Management)**
 
 The overall framework, consisting of prompts, format definitions, protocols, and best practices, designed to structure complex project execution using multiple collaborating AI assistants.
 *   *See overview:* `docs/00_Introduction.md`
 
-**Core APM Cycle**
+**Core LAPM Cycle**
 
-The main iterative loop of activity in an APM project: Manager prepares prompt -> User delivers -> Implementer executes -> Implementer reports -> User confirms log -> Implementer logs -> User informs Manager -> Manager reviews -> Repeat.
-*   *See visual overview:* `docs/01_Workflow_Overview.md` (Core APM Cycle)
+The main iterative loop of activity in an LAPM project: Manager prepares prompt -> User delivers -> Implementer executes -> Implementer reports -> User confirms log -> Implementer logs -> User informs Manager -> Manager reviews -> Repeat.
+*   *See visual overview:* `docs/01_Workflow_Overview.md` (Core LAPM Cycle)
 *   *See practical steps:* `docs/02_Getting_Started.md` (Step 5)
 
 **Handover File (`Handover_File.md`)**
@@ -31,7 +31,7 @@ A structured Markdown document created during the Handover Protocol. It serves a
 
 **Handover Prompt (`Handover_Prompt.md`)**
 
-A Markdown prompt used to initialize a new agent instance during a handover. It includes standard APM onboarding information (if applicable), instructions to process the `Handover_File.md`, and specifies the immediate next steps for the incoming agent.
+A Markdown prompt used to initialize a new agent instance during a handover. It includes standard LAPM onboarding information (if applicable), instructions to process the `Handover_File.md`, and specifies the immediate next steps for the incoming agent.
 *   *See format definition:* `prompts/02_Utility_Prompts_And_Format_Definitions/Handover_Artifact_Formats.md` (Section 3)
 *   *See procedure context:* `prompts/01_Manager_Agent_Core_Guides/05_Handover_Protocol_Guide.md` (Section 3.2)
 

@@ -1,8 +1,8 @@
-# APM Review and Feedback Protocol Guide
+# LAPM Review and Feedback Protocol Guide
 
 ## 1. Purpose
 
-This guide outlines the protocol for you, the Manager Agent, to conduct reviews of completed tasks performed by Implementation Agents within the Agentic Project Management (APM) framework. This review process is critical for ensuring work quality, adherence to the plan, and determining the appropriate next steps.
+This guide outlines the protocol for you, the Manager Agent, to conduct reviews of completed tasks performed by Implementation Agents within the LexIQ Cursor Agentic Project Management (LAPM) framework. This review process is critical for ensuring work quality, adherence to the plan, and determining the appropriate next steps.
 
 ## 2. Trigger
 

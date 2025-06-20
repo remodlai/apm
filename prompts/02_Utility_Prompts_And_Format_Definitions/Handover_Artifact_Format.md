@@ -1,13 +1,13 @@
-# APM Handover Artifact Formats
+# LAPM Handover Artifact Formats
 
 ## 1. Introduction
 
-This document specifies the standard Markdown formatting for the two key artifacts generated during the APM Handover Protocol (the procedure itself is detailed in `prompts/01_Manager_Agent_Core_Guides/05_Handover_Protocol_Guide.md`):
+This document specifies the standard Markdown formatting for the two key artifacts generated during the LAPM Handover Protocol (the procedure itself is detailed in `prompts/01_Manager_Agent_Core_Guides/05_Handover_Protocol_Guide.md`):
 
 1.  **`Handover_File.md`**: The comprehensive context dump from the outgoing agent.
 2.  **`Handover_Prompt.md`**: The initialization prompt for the incoming agent.
 
-These formats apply to handovers involving **any type of agent** within the APM framework (Manager, Implementation, Specialized). Adherence to these structures is crucial for the successful transfer of project context and the seamless initialization of the new agent instance, regardless of the agent's role.
+These formats apply to handovers involving **any type of agent** within the LAPM framework (Manager, Implementation, Specialized). Adherence to these structures is crucial for the successful transfer of project context and the seamless initialization of the new agent instance, regardless of the agent's role.
 
 This document serves as the definitive structural reference for whoever prepares the handover artifacts (typically the Manager Agent or the User).
 
@@ -20,7 +20,7 @@ This document serves as the definitive structural reference for whoever prepares
 This file should be structured using clear Markdown headings to organize the dumped context. The following sections represent the comprehensive format, primarily intended for a Manager Agent handover. For handovers involving Specialized Agents, certain sections may be simplified or omitted by the preparer to match the agent's specific scope (see Section 4 for more on variations).
 
 ```
-# APM Handover File - [Project Name/Identifier] - [Date]
+# LAPM Handover File - [Project Name/Identifier] - [Date]
 
 ## Section 1: Handover Overview
 
@@ -127,19 +127,19 @@ def specific_function_under_review(input_data):
 
 ## 3. `Handover_Prompt.md` Format (New Agent Initialization)
 
-This prompt initializes the new agent instance, regardless of type. It blends standard APM context (if needed) with handover-specific instructions.
+This prompt initializes the new agent instance, regardless of type. It blends standard LAPM context (if needed) with handover-specific instructions.
 
 ```start of markdown cell
-# APM Agent Initialization - Handover Protocol
+# LAPM Agent Initialization - Handover Protocol
 
-You are being activated as an agent ([Agent Type, e.g., Manager Agent, Implementation Agent]) within the **Agentic Project Management (APM)** framework.
+You are being activated as an agent ([Agent Type, e.g., Manager Agent, Implementation Agent]) within the **LexIQ Cursor Agentic Project Management (LAPM)** framework.
 
 **CRITICAL: This is a HANDOVER situation.** You are taking over from a previous agent instance ([Outgoing Agent ID]). Your primary goal is to seamlessly integrate and continue the assigned work based on the provided context.
 
-## 1. APM Framework Context (As Needed for Role)
+## 1. LAPM Framework Context (As Needed for Role)
 
 **(For Manager Agents, the preparer should integrate essential Sections 1 and 2 from `prompts/00_Initial_Manager_Setup/01_Initiation_Prompt.md` here, adapting "Your Role" / "Core Responsibilities" to reflect the takeover.)**
-**(For Implementation/Specialized Agents, this section may be omitted or heavily condensed by the preparer, focusing only on essential concepts like the Memory Bank if the agent is already familiar with APM basics.)**
+**(For Implementation/Specialized Agents, this section may be omitted or heavily condensed by the preparer, focusing only on essential concepts like the Memory Bank if the agent is already familiar with LAPM basics.)**
 
 *   **Your Role:** [Briefly state the role and the fact you are taking over, e.g., "As the incoming Manager Agent, you are responsible for overseeing the project's progression...", "As Implementation Agent B, you are taking over Task X..."]
 *   **Memory Bank:** You MUST log significant actions/results to the Memory Bank(s) located at [Path(s) from Handover File, Section 1] using the format defined in `prompts/02_Utility_Prompts_And_Format_Definitions/Memory_Bank_Log_Format.md`. Logging occurs after User confirmation of task state.
@@ -183,7 +183,7 @@ Proceed with the Handover Context Assimilation now. Acknowledge receipt of this 
 As indicated in the templates above, handovers for Specialized Agents (e.g., Implementer, Debugger, Tester) typically involve **scope-limited versions** of these formats:
 
 *   **`Handover_File.md` (Simplified & Focused):** The preparer (Manager Agent or User) must ensure the content is highly focused on the *specific task(s)* being handed over. Sections like overall project goals, full agent roster, or extensive historical decision logs (if not directly relevant to the specific task) may be omitted or properely summarized. The goal is to provide all necessary context for *the next tasks* without overwhelming the next Agent with past info not particularly useful for the next task or the rest of the project.
-*   **`Handover_Prompt.md` (Simplified):** Contains the general APM framework introduction (Section 1) or a dense summary if the Agent has been activated before. Instructions in Section 2 and 3 should focus directly on understanding the *task-specific* context from the tailored Handover File and resuming that specific work.
+*   **`Handover_Prompt.md` (Simplified):** Contains the general LAPM framework introduction (Section 1) or a dense summary if the Agent has been activated before. Instructions in Section 2 and 3 should focus directly on understanding the *task-specific* context from the tailored Handover File and resuming that specific work.
 
 The key is that the Manager Agent or User preparing the handover artifacts must tailor the content of both `Handover_File.md` and `Handover_Prompt.md` to the precise needs, role, and scope of the incoming specialized agent.
 

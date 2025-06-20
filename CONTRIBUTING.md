@@ -1,5 +1,5 @@
-# Contributing to agentic-project-management (APM)
-Thank you for considering contributing to APM! Your help is appreciated.
+# Contributing to agentic-project-management (LAPM)
+Thank you for considering contributing to LAPM! Your help is appreciated.
 
 ## How Can I Contribute?
 

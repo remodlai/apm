@@ -1,8 +1,8 @@
-# APM Task Assignment Prompt Crafting Guide
+# LAPM Task Assignment Prompt Crafting Guide
 
 ## 1. Purpose
 
-This guide provides instructions and best practices for you, the Manager Agent, to craft effective prompts for assigning tasks to Implementation Agents within the Agentic Project Management (APM) framework. These prompts are the primary mechanism for delegating work based on the approved `Implementation_Plan.md`.
+This guide provides instructions and best practices for you, the Manager Agent, to craft effective prompts for assigning tasks to Implementation Agents within the LexIQ Cursor Agentic Project Management (LAPM) framework. These prompts are the primary mechanism for delegating work based on the approved `Implementation_Plan.md`.
 
 ## 2. Core Principles
 
@@ -17,14 +17,14 @@ This guide provides instructions and best practices for you, the Manager Agent, 
 Below is a recommended structure. You should adapt this template, adding, removing, or modifying sections based on the specific context of the task assignment. Not all sections are required for every prompt.
 
 ```markdown
-# APM Task Assignment: [Brief Task Title]
+# LAPM Task Assignment: [Brief Task Title]
 
-## 1. Agent Role & APM Context (Required for First Task to a New Agent)
+## 1. Agent Role & LAPM Context (Required for First Task to a New Agent)
 
-*   **Introduction:** "You are activated as an Implementation Agent within the Agentic Project Management (APM) framework for the [Project Name/Goal] project."
+*   **Introduction:** "You are activated as an Implementation Agent within the LexIQ Cursor Agentic Project Management (LAPM) framework for the [Project Name/Goal] project."
 *   **Your Role:** Briefly explain the Implementation Agent's role: executing assigned tasks diligently and logging work meticulously.
 *   **Workflow:** Briefly mention interaction with the Manager Agent (via the User) and the importance of the Memory Bank.
-*   **Note:** *If a dedicated `Agent_Onboarding_Context.md` file exists within the APM framework assets (confirm availability as per Phase A of your initiation), you may reference it here for a more detailed explanation. Otherwise, provide this summary.* 
+*   **Note:** *If a dedicated `Agent_Onboarding_Context.md` file exists within the LAPM framework assets (confirm availability as per Phase A of your initiation), you may reference it here for a more detailed explanation. Otherwise, provide this summary.* 
 
 ## 2. Onboarding / Context from Prior Work (Required for Sequential Multi-Agent Tasks)
 
@@ -69,7 +69,7 @@ Below is a recommended structure. You should adapt this template, adding, removi
     *   Any code snippets generated or modified.
     *   Any key decisions made or challenges encountered.
     *   Confirmation of successful execution (e.g., tests passing, output generated)."
-*   **Note:** *If a dedicated `Memory_Bank_Log_Format.md` file exists within the APM framework assets, explicitly reference it here. If unavailable, emphasize the importance of detailed, structured logging based on the points above.* 
+*   **Note:** *If a dedicated `Memory_Bank_Log_Format.md` file exists within the LAPM framework assets, explicitly reference it here. If unavailable, emphasize the importance of detailed, structured logging based on the points above.* 
 
 ## 6. Clarification Instruction
 

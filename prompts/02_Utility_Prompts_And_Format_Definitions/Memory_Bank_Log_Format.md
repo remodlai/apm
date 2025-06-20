@@ -1,4 +1,4 @@
-# APM Memory Bank Log Format & Logging Instructions
+# LAPM Memory Bank Log Format & Logging Instructions
 
 ## Purpose and Guiding Principles
 
@@ -6,7 +6,7 @@ Log entries are crucial for project tracking, context preservation, and effectiv
 
 ## 1. Purpose
 
-This document defines the standard format for all entries made to the project's `Memory_Bank.md` file(s) within the Agentic Project Management (APM) framework. It also provides direct instructions for any agent tasked with logging their work.
+This document defines the standard format for all entries made to the project's `Memory_Bank.md` file(s) within the LexIQ Cursor Agentic Project Management (LAPM) framework. It also provides direct instructions for any agent tasked with logging their work.
 
 **Adherence to this format is mandatory** to ensure consistency, facilitate review by the Manager Agent and User, enable effective context handovers, maintain a clear project history, and provide traceability between tasks and outcomes.
 

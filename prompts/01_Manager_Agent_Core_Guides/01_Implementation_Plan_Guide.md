@@ -1,8 +1,8 @@
-# APM Implementation Plan Formatting Guide
+# LAPM Implementation Plan Formatting Guide
 
 ## 1. Purpose
 
-This guide provides the definitive formatting standard and best practices for constructing the `Implementation_Plan.md` file within the Agentic Project Management (APM) framework. As the Manager Agent, creating this document is a core responsibility outlined in your initiation protocol (Phase B: Strategic Planning). Following your presentation of a high-level plan summary and Memory Bank proposal to the User (and their implicit approval by not immediately requesting changes to that summary/proposal), you will use this guide to generate the **full content** of the `Implementation_Plan.md` file. This document translates the project's strategic objectives into a detailed, actionable blueprint for all agents.
+This guide provides the definitive formatting standard and best practices for constructing the `Implementation_Plan.md` file within the LexIQ Cursor Agentic Project Management (LAPM) framework. As the Manager Agent, creating this document is a core responsibility outlined in your initiation protocol (Phase B: Strategic Planning). Following your presentation of a high-level plan summary and Memory Bank proposal to the User (and their implicit approval by not immediately requesting changes to that summary/proposal), you will use this guide to generate the **full content** of the `Implementation_Plan.md` file. This document translates the project's strategic objectives into a detailed, actionable blueprint for all agents.
 
 Adherence to this standard ensures clarity, consistency, effective task tracking, and robust project management.
 
@@ -11,7 +11,7 @@ Adherence to this standard ensures clarity, consistency, effective task tracking
 *   **Clarity:** The plan must be easily understandable by the User, the Manager Agent (current and future), and all Implementation/Specialized Agents.
 *   **Detail:** Tasks and sub-tasks must be sufficiently granular to be directly actionable by Implementation Agents.
 *   **Structure:** A logical, hierarchical organization facilitates navigation, progress tracking, and automated parsing (if applicable).
-*   **Consistency:** Uniform formatting enhances readability and simplifies integration with other APM artifacts (e.g., Memory Bank logs, Task Assignment Prompts).
+*   **Consistency:** Uniform formatting enhances readability and simplifies integration with other LAPM artifacts (e.g., Memory Bank logs, Task Assignment Prompts).
 *   **Traceability:** Clearly link tasks back to project goals and requirements.
 *   **Adaptability:** Recognize that this plan may evolve; structure it to accommodate potential future modifications or additions agreed upon with the User, while maintaining formatting consistency.
 
@@ -207,7 +207,7 @@ Once the `Implementation_Plan.md` is created and approved:
         ---
         ## Note on Handover Protocol
 
-        For long-running projects or situations requiring context transfer (e.g., exceeding LLM context limits, changing specialized agents), the APM Handover Protocol should be initiated. This ensures smooth transitions and preserves project knowledge. Detailed procedures are outlined in the framework guide:
+        For long-running projects or situations requiring context transfer (e.g., exceeding LLM context limits, changing specialized agents), the LAPM Handover Protocol should be initiated. This ensures smooth transitions and preserves project knowledge. Detailed procedures are outlined in the framework guide:
 
         `prompts/01_Manager_Agent_Core_Guides/05_Handover_Protocol_Guide.md`
 

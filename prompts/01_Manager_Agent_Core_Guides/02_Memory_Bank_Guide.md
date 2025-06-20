@@ -1,4 +1,4 @@
-# APM Memory Bank System Guide
+# LAPM Memory Bank System Guide
 
 ## 1. Purpose
 
@@ -53,7 +53,7 @@ Use your judgment to balance these factors. When in doubt for moderately complex
     2.  Populate this file with the following header:
 
     ```markdown
-    # APM Project Memory Bank
+    # LAPM Project Memory Bank
     
     Project Goal: [Brief project goal, taken or summarized from the Implementation Plan's introduction]
     Date Initiated: [YYYY-MM-DD of Memory Bank creation]
@@ -74,7 +74,7 @@ Use your judgment to balance these factors. When in doubt for moderately complex
     1.  You will create a root directory named `Memory/` at the project root.
     2.  **Inside the `Memory/` directory, create a `README.md` file** to explain its structure. Example content for `Memory/README.md`:
         ```markdown
-        # APM Project Memory Bank Directory
+        # LAPM Project Memory Bank Directory
         
         This directory houses the detailed log files for the [Project Name] project.
         
@@ -101,7 +101,7 @@ Use your judgment to balance these factors. When in doubt for moderately complex
     4.  **Populate each individual log file (`Task_..._Log.md`) with the following header:**
 
         ```markdown
-        # APM Task Log: [Full Task Title from Implementation_Plan.md]
+        # LAPM Task Log: [Full Task Title from Implementation_Plan.md]
         
         Project Goal: [Brief project goal, from Implementation Plan]
         Phase: [Phase Name from Implementation_Plan.md, if applicable, otherwise "N/A"]
@@ -145,7 +145,7 @@ This process aligns with the "Consolidated Proposal & Creation" step of your ini
 *   All *actual log entries* made by Implementation Agents (after User confirmation) into these files **must** strictly adhere to the formatting rules defined in `prompts/02_Utility_Prompts_And_Format_Definitions/Memory_Bank_Log_Format.md`.
 *   As new tasks are defined or phases initiated in an evolving `Implementation_Plan.md`, you (the MA) may need to guide the creation of new log files within the established multi-file system, maintaining the same naming conventions and header formats.
 
-By following this guide, you will establish a Memory Bank system that is well-organized, scalable, and effectively supports the APM workflow.
+By following this guide, you will establish a Memory Bank system that is well-organized, scalable, and effectively supports the LAPM workflow.
 
 ## Strict Adherence to Implementation Plan
 
