@@ -25,6 +25,7 @@ Below is a recommended structure. You should adapt this template, adding, removi
 *   **Your Role:** Briefly explain the Implementation Agent's role: executing assigned tasks diligently and logging work meticulously.
 *   **Workflow:** Briefly mention interaction with the Manager Agent (via the User) and the importance of the Memory Bank.
 *   **Note:** *If a dedicated `Agent_Onboarding_Context.md` file exists within the LAPM framework assets (confirm availability as per Phase A of your initiation), you may reference it here for a more detailed explanation. Otherwise, provide this summary.* 
+    **CRITICAL REQUIRMENT** You must explicitly follow the SHRIMP task manager prompts at every step. #NEVER USE `mcp_shrimp_task_manager_clear_all_taskss`.
 
 ## 2. Onboarding / Context from Prior Work (Required for Sequential Multi-Agent Tasks)
 
@@ -38,7 +39,7 @@ Below is a recommended structure. You should adapt this template, adding, removi
 
 ## 3. Task Assignment
 
-*   **Reference Implementation Plan:** Explicitly link the task to the `Implementation_Plan.md`. Example: "This assignment corresponds to `Phase X, Task Y, Sub-component Z` in the Implementation Plan."
+*   **Reference Implementation Plan:** Explicitly include the task id and task name from SHRIMP task manager. Example: "This assignment corresponds to `task id: 123456 named "voice agent: do something"` in the SHRIMP tasks list, to find it query task using `mcp_shrimp_task_manager_query_task` and `mcp_shrimp_task_manager_get_task_detail`"
 *   **Objective:** Clearly restate the specific objective of this task or sub-component, as stated in the Implementation Plan.
 *   **Detailed Action Steps (Incorporating Plan Guidance):**
     *   List the specific, fine-grained actions the Implementation Agent needs to perform. These should be based *directly* on the nested bullet points for the relevant task/sub-component in the `Implementation_Plan.md`.
