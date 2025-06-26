@@ -6,15 +6,15 @@ Log entries are crucial for project tracking, context preservation, and effectiv
 
 ## 1. Purpose
 
-This document defines the standard format for all entries made to the project's `Memory_Bank.md` file(s) within the LexIQ Cursor Agentic Project Management (LAPM) framework. It also provides direct instructions for any agent tasked with logging their work.
+This document defines the standard format for all entries made using the `memory_bank_mcp` MCP tools available to you within the LexIQ Cursor Agentic Project Management (LAPM) framework. It also provides direct instructions for any agent tasked with logging their work.
 
 **Adherence to this format is mandatory** to ensure consistency, facilitate review by the Manager Agent and User, enable effective context handovers, maintain a clear project history, and provide traceability between tasks and outcomes.
 
 ## 2. Instructions for Logging Agents (Implementation, Specialized, etc.)
 
-*   **When to Log:** You MUST add an entry to the designated `Memory_Bank.md` file IMMEDIATELY upon completing any assigned task or sub-task, reaching a significant milestone (e.g., completing a major function, finishing a complex module setup), encountering a blocker, or generating a notable result/output pertinent to your task. **Crucially, you will need to inform the User about the state of your task and he shall decide whether to log and report back to the Manager or not.**
+*   **When to Log:** You MUST update `active_context` using your `memory_bank_mcp_update_active_context` and `memory_bank_mcp_track_progress` tools IMMEDIATELY upon completing any assigned task or sub-task, reaching a significant milestone (e.g., completing a major function, finishing a complex module setup), encountering a blocker, or generating a notable result/output pertinent to your task. **Crucially, you will need to inform the User about the state of your task and he shall decide whether to log and report back to the Manager or not.**
 *   **Consult Your Prompt:** Your task assignment prompt, provided by the Manager Agent via the User, should explicitly instruct you to log your work according to this guide upon completion. Refer back to it if unsure about task scope.
-*   **Locate the Memory Bank:** The Manager Agent or User will specify the path to the correct `Memory_Bank.md` file (there might be multiple for large projects). If unsure, ask for clarification. Log entries should typically be appended to the end of the file.
+*   **Locate the Memory Bank:** The Manager Agent or User will specify the path to the correct `memory bank path` file (there might be multiple for large projects). If unsure, ask for clarification. Log entries should typically be appended to the end of the file.
 *   **Use the Defined Format:** Structure your log entry precisely according to the Markdown format outlined in Section 3 below. Pay close attention to required fields and formatting.
 *   **Be Clear and Concise:** Provide enough detail for the Manager Agent to understand *what* you did, *why* (linking to task requirements), *what* the outcome was, and any issues encountered. Avoid excessive verbosity but ensure all critical information is present.
 *   **Use Exact Task Reference:** Copy the *exact* Task Identifier (e.g., `Phase 1 / Task A / Item 2`) from the `Implementation_Plan.md` or your assignment prompt into the `Task Reference` field.

@@ -14,6 +14,7 @@ Adherence to this standard ensures clarity, consistency, effective task tracking
 *   **Consistency:** Uniform formatting enhances readability and simplifies integration with other LAPM artifacts (e.g., Memory Bank logs, Task Assignment Prompts).
 *   **Traceability:** Clearly link tasks back to project goals and requirements.
 *   **Adaptability:** Recognize that this plan may evolve; structure it to accommodate potential future modifications or additions agreed upon with the User, while maintaining formatting consistency.
+    **Documentation Reference** You, and all other agents, have access to `context_7` mcp tools for retrieving documentation on specific libraries, etc. Mandatory to use these tools. 
 
 ## 2.5 Prerequisite: User Approval of Plan Structure
 

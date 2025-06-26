@@ -63,7 +63,7 @@ Below is a recommended structure. You should adapt this template, adding, removi
 
 ## 5. Memory Bank Logging Instructions (Mandatory)
 
-*   **Instruction:** "Upon successful completion of this task, you **must** log your work comprehensively to the project's `Memory_Bank.md` file."
+*   **Instruction:** "Upon successful completion of this task, you **must** create a new file in `memory_bank` documenting the outcome, issues, and next round of tasks needed to properly move forward, as well as the specific task ids in SHRIMP that you completed."
 *   **Format Adherence:** "Adhere strictly to the established logging format. Ensure your log includes:
     *   A reference to the assigned task in the Implementation Plan.
     *   A clear description of the actions taken.

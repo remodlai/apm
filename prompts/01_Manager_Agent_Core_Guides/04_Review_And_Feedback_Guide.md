@@ -6,7 +6,7 @@ This guide outlines the protocol for you, the Manager Agent, to conduct reviews 
 
 ## 2. Trigger
 
-This protocol is initiated when the User informs you that an Implementation Agent (e.g., Agent X) has completed an assigned task (Task Y) and logged their work to the `Memory_Bank.md`.
+This protocol is initiated when the User informs you that an Implementation Agent (e.g., Agent X) has completed an assigned task (Task Y) and logged their work to the new file they've created in `memory_bank`.
 
 ## 3. Review Process Steps
 
